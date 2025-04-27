@@ -2,9 +2,7 @@
 
 An interactive preview of the RayVenture engine. A new build is published after each larger milestone reached in the RayVenture engine development.
 
-You can easily access the previews here:
- - [V1](/builds/v1/index.html) - Smooth 60 FPS on my machine at around 800x450 resolution,
- - > more coming soon
+You can easily access the previews from [here](https://blatko1.github.io/rayventure-preview/).
 
 Watch out when having open DevTools in Chrome as it dramatically decreases the performance.
 
