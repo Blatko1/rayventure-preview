@@ -1,0 +1,15 @@
+{
+  "name": "simple",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "simple_web_bg.wasm",
+    "simple_web.js",
+    "simple_web.d.ts"
+  ],
+  "main": "simple_web.js",
+  "types": "simple_web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
