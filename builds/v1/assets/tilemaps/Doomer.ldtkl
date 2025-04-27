@@ -1,0 +1,1924 @@
+{
+	"__header__": {
+		"fileType": "LDtk Project JSON",
+		"app": "LDtk",
+		"doc": "https://ldtk.io/json",
+		"schema": "https://ldtk.io/files/JSON_SCHEMA.json",
+		"appAuthor": "Sebastien 'deepnight' Benard",
+		"appVersion": "1.5.3",
+		"url": "https://ldtk.io"
+	},
+	"identifier": "Doomer",
+	"iid": "7449a970-e920-11ef-bd6e-693a458a0291",
+	"uid": 0,
+	"worldX": 0,
+	"worldY": 0,
+	"worldDepth": 0,
+	"pxWid": 420,
+	"pxHei": 420,
+	"__bgColor": "#AFB3F4",
+	"bgColor": "#AFB3F4",
+	"useAutoIdentifier": false,
+	"bgRelPath": null,
+	"bgPos": null,
+	"bgPivotX": 0.5,
+	"bgPivotY": 0.5,
+	"__smartColor": "#D3D5F9",
+	"__bgPos": null,
+	"externalRelPath": null,
+	"fieldInstances": [
+		{ "__identifier": "Ambient", "__type": "Float", "__value": 1, "__tile": null, "defUid": 4, "realEditorValues": [{ "id": "V_Float", "params": [1] }] },
+		{ "__identifier": "SkyboxBottom", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyBottom_png", "__tile": null, "defUid": 125, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyBottom_png"]
+		}] },
+		{ "__identifier": "SkyboxTop", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyTop_png", "__tile": null, "defUid": 126, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyTop_png"]
+		}] },
+		{ "__identifier": "SkyboxNorth", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyNorth_png", "__tile": null, "defUid": 127, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyNorth_png"]
+		}] },
+		{ "__identifier": "SkyboxEast", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyEast_png", "__tile": null, "defUid": 128, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyEast_png"]
+		}] },
+		{ "__identifier": "SkyboxSouth", "__type": "LocalEnum.SkyboxTexture", "__value": "SkySouth_png", "__tile": null, "defUid": 129, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkySouth_png"]
+		}] },
+		{ "__identifier": "SkyboxWest", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyWest_png", "__tile": null, "defUid": 130, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyWest_png"]
+		}] }
+	],
+	"layerInstances": [
+		{
+			"__identifier": "Portals",
+			"__type": "Entities",
+			"__cWid": 21,
+			"__cHei": 21,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "dfe53c30-1030-11f0-8f9d-052509074f56",
+			"levelId": 0,
+			"layerDefUid": 122,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 8504384,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": [
+				{
+					"__identifier": "Portal",
+					"__grid": [3,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "16f0caa0-1030-11f0-889b-43860ff09595",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [70,390],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Down", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Down"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [{
+							"entityIid": "1cfbe580-1030-11f0-a310-5576ef2ab639",
+							"layerIid": "16c2b9f1-1030-11f0-a310-ab35e1b9fcdb",
+							"levelIid": "16c2b9f0-1030-11f0-a310-29ca14ede14e",
+							"worldIid": "74498260-e920-11ef-bd6e-c39e121a84eb"
+						}], "__tile": null, "defUid": 107, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["1cfbe580-1030-11f0-a310-5576ef2ab639"]
+						}] }
+					],
+					"__worldX": 70,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Portal",
+					"__grid": [1,18],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "9ad3fe20-1030-11f0-889b-cbc29a69a445",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [30,370],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Left", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Left"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [{
+							"entityIid": "6f84ac50-1030-11f0-889b-0d935f500bc3",
+							"layerIid": "dfe56340-1030-11f0-8f9d-1bce2379e3f8",
+							"levelIid": "5429a0a0-e920-11ef-8913-73c16aa0221b",
+							"worldIid": "74498260-e920-11ef-bd6e-c39e121a84eb"
+						}], "__tile": null, "defUid": 107, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["6f84ac50-1030-11f0-889b-0d935f500bc3"]
+						}] }
+					],
+					"__worldX": 30,
+					"__worldY": 370
+				},
+				{
+					"__identifier": "Portal",
+					"__grid": [5,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "9e1bd520-1030-11f0-889b-630e4052cc43",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [110,390],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Down", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Down"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [], "__tile": null, "defUid": 107, "realEditorValues": [] }
+					],
+					"__worldX": 110,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Portal",
+					"__grid": [7,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "9e8608a0-1030-11f0-889b-69da3d503216",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [150,390],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Down", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Down"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [], "__tile": null, "defUid": 107, "realEditorValues": [] }
+					],
+					"__worldX": 150,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Portal",
+					"__grid": [9,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "9ee9ac70-1030-11f0-889b-a739f4d6eb22",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [190,390],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Down", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Down"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [], "__tile": null, "defUid": 107, "realEditorValues": [] }
+					],
+					"__worldX": 190,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Portal",
+					"__grid": [1,10],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "a789ecf0-1030-11f0-889b-d50d45d3fbb6",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [30,210],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Left", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Left"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [{
+							"entityIid": "6f84ac50-1030-11f0-889b-0d935f500bc3",
+							"layerIid": "dfe56340-1030-11f0-8f9d-1bce2379e3f8",
+							"levelIid": "5429a0a0-e920-11ef-8913-73c16aa0221b",
+							"worldIid": "74498260-e920-11ef-bd6e-c39e121a84eb"
+						}], "__tile": null, "defUid": 107, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["6f84ac50-1030-11f0-889b-0d935f500bc3"]
+						}] }
+					],
+					"__worldX": 30,
+					"__worldY": 210
+				},
+				{
+					"__identifier": "Portal",
+					"__grid": [1,8],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Portal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "37c075b0-1030-11f0-9412-31481b51108d",
+					"width": 20,
+					"height": 20,
+					"defUid": 26,
+					"px": [30,170],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.DirectionEnum", "__value": "Left", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Left"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [{
+							"entityIid": "49782280-1030-11f0-9412-c90085e54670",
+							"layerIid": "3eb55021-1030-11f0-9412-e1d57b0a8c03",
+							"levelIid": "3eb55020-1030-11f0-9412-7db8d551c080",
+							"worldIid": "74498260-e920-11ef-bd6e-c39e121a84eb"
+						}], "__tile": null, "defUid": 107, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["49782280-1030-11f0-9412-c90085e54670"]
+						}] }
+					],
+					"__worldX": 30,
+					"__worldY": 170
+				}
+			]
+		},
+		{
+			"__identifier": "Entities",
+			"__type": "Entities",
+			"__cWid": 21,
+			"__cHei": 21,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "9eb1fed0-1030-11f0-889b-a9b41d1757be",
+			"levelId": 0,
+			"layerDefUid": 101,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 8265779,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": [
+				{
+					"__identifier": "Decko",
+					"__grid": [3,2],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Entity"],
+					"__tile": null,
+					"__smartColor": "#D66A51",
+					"iid": "e14ee9b0-1030-11f0-889b-b735faafac40",
+					"width": 10,
+					"height": 10,
+					"defUid": 19,
+					"px": [70,50],
+					"fieldInstances": [
+						{ "__identifier": "texture", "__type": "LocalEnum.SpriteTexture", "__value": "Walk1_png", "__tile": null, "defUid": 134, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Walk1_png"]
+						}] },
+						{ "__identifier": "scale", "__type": "Float", "__value": 1, "__tile": null, "defUid": 22, "realEditorValues": [] },
+						{ "__identifier": "height", "__type": "Float", "__value": 0, "__tile": null, "defUid": 23, "realEditorValues": [] }
+					],
+					"__worldX": 70,
+					"__worldY": 50
+				},
+				{
+					"__identifier": "Decko",
+					"__grid": [6,6],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Entity"],
+					"__tile": null,
+					"__smartColor": "#D66A51",
+					"iid": "e1dad600-1030-11f0-889b-af0f6373799c",
+					"width": 10,
+					"height": 10,
+					"defUid": 19,
+					"px": [130,130],
+					"fieldInstances": [
+						{ "__identifier": "texture", "__type": "LocalEnum.SpriteTexture", "__value": "Walk1_png", "__tile": null, "defUid": 134, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Walk1_png"]
+						}] },
+						{ "__identifier": "scale", "__type": "Float", "__value": 1, "__tile": null, "defUid": 22, "realEditorValues": [] },
+						{ "__identifier": "height", "__type": "Float", "__value": -0.3, "__tile": null, "defUid": 23, "realEditorValues": [{ "id": "V_Float", "params": [-0.3] }] }
+					],
+					"__worldX": 130,
+					"__worldY": 130
+				},
+				{
+					"__identifier": "Decko",
+					"__grid": [3,5],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Entity"],
+					"__tile": null,
+					"__smartColor": "#D66A51",
+					"iid": "e1b54b40-1030-11f0-be64-43c03b5584a1",
+					"width": 10,
+					"height": 10,
+					"defUid": 19,
+					"px": [70,110],
+					"fieldInstances": [
+						{ "__identifier": "texture", "__type": "LocalEnum.SpriteTexture", "__value": "Wide_png", "__tile": null, "defUid": 134, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Wide_png"]
+						}] },
+						{ "__identifier": "scale", "__type": "Float", "__value": 9.85, "__tile": null, "defUid": 22, "realEditorValues": [{ "id": "V_Float", "params": [9.85] }] },
+						{ "__identifier": "height", "__type": "Float", "__value": 0, "__tile": null, "defUid": 23, "realEditorValues": [] }
+					],
+					"__worldX": 70,
+					"__worldY": 110
+				}
+			]
+		},
+		{
+			"__identifier": "Tilemap",
+			"__type": "Entities",
+			"__cWid": 21,
+			"__cHei": 21,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "9d60f310-e920-11ef-80f8-53774281cacb",
+			"levelId": 0,
+			"layerDefUid": 20,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 4412433,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": [
+				{
+					"__identifier": "Tile",
+					"__grid": [19,13],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "c3833d20-1030-11f0-8fb5-6b40e13505db",
+					"width": 40,
+					"height": 40,
+					"defUid": 110,
+					"px": [380,260],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["304,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,11,10,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [11] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ null, null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ null, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 380,
+					"__worldY": 260
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [10,13],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "dd984db0-1030-11f0-8fb5-65b225620284",
+					"width": 40,
+					"height": 40,
+					"defUid": 110,
+					"px": [200,260],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["304,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,11,10,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [11] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ null, null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ null, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 200,
+					"__worldY": 260
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [10,6],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "de28cde0-1030-11f0-8fb5-b140569bded5",
+					"width": 40,
+					"height": 40,
+					"defUid": 110,
+					"px": [200,120],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["304,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,11,10,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [11] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ null, null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ null, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 200,
+					"__worldY": 120
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [19,6],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "decb4f70-1030-11f0-8fb5-f3b49b2e7e78",
+					"width": 40,
+					"height": 40,
+					"defUid": 110,
+					"px": [380,120],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 304, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["304,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,11,10,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [11] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ null, null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ null, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 380,
+					"__worldY": 120
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [19,16],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 304, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "ea5d58b0-1030-11f0-8fb5-d5c0995b76c1",
+					"width": 20,
+					"height": 100,
+					"defUid": 110,
+					"px": [390,330],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 304, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 304, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["304,16,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,3,2,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [3] }, { "id": "V_Float", "params": [2] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "MetalFloor_jpg", "MetalFloor_jpg", "MetalFloor_jpg", "MetalFloor_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						} ] }
+					],
+					"__worldX": 390,
+					"__worldY": 330
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [19,3],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 304, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "15eec220-1030-11f0-8fb5-036f5b8ebef3",
+					"width": 20,
+					"height": 80,
+					"defUid": 110,
+					"px": [390,60],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 304, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 304, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["304,16,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,3,2,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [3] }, { "id": "V_Float", "params": [2] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "MetalFloor_jpg", "MetalFloor_jpg", "MetalFloor_jpg", "MetalFloor_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["MetalFloor_jpg"]
+						} ] }
+					],
+					"__worldX": 390,
+					"__worldY": 60
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [15,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "48ed6a50-1030-11f0-8fb5-91df72378691",
+					"width": 220,
+					"height": 20,
+					"defUid": 110,
+					"px": [310,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 310,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [8,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "66cc8290-1030-11f0-8fb5-ef716557fb69",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [170,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 170,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [6,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "6bbe6110-1030-11f0-8fb5-c5865c2423a3",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [130,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 130,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [4,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "6c2671b0-1030-11f0-8fb5-8bf55bf97dbe",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [90,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 90,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [2,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "6edb5880-1030-11f0-8fb5-a553146fa939",
+					"width": 40,
+					"height": 20,
+					"defUid": 110,
+					"px": [40,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 40,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [0,10],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "7c7f2ac0-1030-11f0-8fb5-533cabe1f21d",
+					"width": 20,
+					"height": 400,
+					"defUid": 110,
+					"px": [10,200],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 10,
+					"__worldY": 200
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [11,0],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "8c86dda0-1030-11f0-8fb5-13140cca5fc2",
+					"width": 400,
+					"height": 20,
+					"defUid": 110,
+					"px": [220,10],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 220,
+					"__worldY": 10
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,11],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "9d1832e0-1030-11f0-8fb5-bb0f62535bb9",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [30,230],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 30,
+					"__worldY": 230
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,9],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "9da9c480-1030-11f0-8fb5-c7e6c63bb9a5",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [30,190],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 30,
+					"__worldY": 190
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [4,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "9e7b9370-1030-11f0-8fb5-d5610b875f77",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [90,90],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 90,
+					"__worldY": 90
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [6,2],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "9f13b4c0-1030-11f0-8fb5-aba9f90b84a9",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [130,50],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 48, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,48,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [12,10,9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [12] }, { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "LightPlank_png", "LightPlank_png", "LightPlank_png", "LightPlank_png" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						}, {
+							"id": "V_String",
+							"params": ["LightPlank_png"]
+						} ] }
+					],
+					"__worldX": 130,
+					"__worldY": 50
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [10,16],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "aac46990-1030-11f0-8fb5-85647ce1e5d6",
+					"width": 360,
+					"height": 80,
+					"defUid": 110,
+					"px": [200,320],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,5,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [5] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 200,
+					"__worldY": 320
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [10,18],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "c9da0600-1030-11f0-8fb5-0d7feef28d2e",
+					"width": 340,
+					"height": 20,
+					"defUid": 110,
+					"px": [210,370],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,5,0.5,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [5] }, { "id": "V_Float", "params": [0.5] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 210,
+					"__worldY": 370
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [5,13],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "e82e4e40-1030-11f0-8fb5-034d2f9a71ae",
+					"width": 160,
+					"height": 40,
+					"defUid": 110,
+					"px": [100,260],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,5,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [5] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 100,
+					"__worldY": 260
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [5,10],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "ef77d860-1030-11f0-8fb5-3d3cc1cba475",
+					"width": 140,
+					"height": 60,
+					"defUid": 110,
+					"px": [110,210],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 110,
+					"__worldY": 210
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [5,7],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "0363ca50-1030-11f0-8fb5-757d4187953c",
+					"width": 140,
+					"height": 80,
+					"defUid": 110,
+					"px": [110,140],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 110,
+					"__worldY": 140
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [13,3],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "33c420f0-1030-11f0-8fb5-e1000fd24618",
+					"width": 240,
+					"height": 80,
+					"defUid": 110,
+					"px": [260,60],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 260,
+					"__worldY": 60
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,2],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "3abfb220-1030-11f0-8fb5-433026f1582d",
+					"width": 100,
+					"height": 60,
+					"defUid": 110,
+					"px": [70,50],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 70,
+					"__worldY": 50
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [2,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "462af980-1030-11f0-8fb5-d1b37e198b53",
+					"width": 60,
+					"height": 20,
+					"defUid": 110,
+					"px": [50,90],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 50,
+					"__worldY": 90
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [6,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "4b83b020-1030-11f0-8fb5-25a0445f0d83",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [130,90],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 130,
+					"__worldY": 90
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [6,3],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "4ee096c0-1030-11f0-8fb5-8b5595cd0ad7",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [130,70],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 130,
+					"__worldY": 70
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [6,1],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "4f90d3f0-1030-11f0-8fb5-4fd915ecc284",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [130,30],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 130,
+					"__worldY": 30
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [5,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "50321d00-1030-11f0-8fb5-499c3276dfd0",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [110,90],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 110,
+					"__worldY": 90
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [14,5],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "7dc7e1f0-1030-11f0-8fb5-a75af9f43b07",
+					"width": 134,
+					"height": 16,
+					"defUid": 110,
+					"px": [290,110],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,-0.4,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [-0.4] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 290,
+					"__worldY": 110
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [14,13],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "941347b0-1030-11f0-8fb5-a378cd968278",
+					"width": 134,
+					"height": 16,
+					"defUid": 110,
+					"px": [290,270],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,5,-0.4,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [5] }, { "id": "V_Float", "params": [-0.4] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 290,
+					"__worldY": 270
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [9,9],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "958c5320-1030-11f0-8fb5-e72d3de1e0a6",
+					"width": 16,
+					"height": 80,
+					"defUid": 110,
+					"px": [190,190],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,-0.4,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [-0.4] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 190,
+					"__worldY": 190
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [14,6],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "a618ed70-1030-11f0-8fb5-8f71c31115db",
+					"width": 120,
+					"height": 12,
+					"defUid": 110,
+					"px": [290,130],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,-0.6,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [-0.6] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 290,
+					"__worldY": 130
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [14,12],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "af39cfa0-1030-11f0-8fb5-a76b6a5d9d5b",
+					"width": 120,
+					"height": 12,
+					"defUid": 110,
+					"px": [290,250],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,5,-0.6,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [5] }, { "id": "V_Float", "params": [-0.6] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 290,
+					"__worldY": 250
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [10,9],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "b04e73f0-1030-11f0-8fb5-f11f0187f9e0",
+					"width": 13,
+					"height": 72,
+					"defUid": 110,
+					"px": [210,190],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,-0.6,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [-0.6] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 210,
+					"__worldY": 190
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [18,9],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "b7cb9130-1030-11f0-8fb5-634ae3abf29c",
+					"width": 13,
+					"height": 73,
+					"defUid": 110,
+					"px": [370,190],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,-0.6,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [-0.6] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 370,
+					"__worldY": 190
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [19,9],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "c39dfed0-1030-11f0-8fb5-b18a63f79940",
+					"width": 20,
+					"height": 100,
+					"defUid": 110,
+					"px": [390,190],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 390,
+					"__worldY": 190
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [14,9],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "c7e9d950-1030-11f0-8fb5-77ce83226a66",
+					"width": 125,
+					"height": 87,
+					"defUid": 110,
+					"px": [290,190],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,-0.9,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [-0.9] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 290,
+					"__worldY": 190
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,10],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "4fbb2600-1030-11f0-8f9d-f14dde4e3f05",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [30,210],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["416,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 30,
+					"__worldY": 210
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,18],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "568a01e0-1030-11f0-8f9d-3df1f56ec981",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [30,370],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["416,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 30,
+					"__worldY": 370
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "7546f700-1030-11f0-8f9d-cf1d769155b2",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [70,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["400,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,6,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [6] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 70,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [5,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "787887e0-1030-11f0-8f9d-79a3d88045dc",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [110,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["400,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 110,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [7,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "78c60ba0-1030-11f0-8f9d-730500988a25",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [150,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["400,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 150,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [9,19],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "7926c940-1030-11f0-8f9d-cd504f62f964",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [190,390],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 400, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["400,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 190,
+					"__worldY": 390
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,6],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "775da330-1030-11f0-9412-5de953b5423e",
+					"width": 20,
+					"height": 60,
+					"defUid": 110,
+					"px": [30,130],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 288, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["288,32,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", "Stone_jpg", "Stone_jpg", "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 30,
+					"__worldY": 130
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,8],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "7f5595c0-1030-11f0-9412-69ede2b8cdc5",
+					"width": 20,
+					"height": 20,
+					"defUid": 110,
+					"px": [30,170],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 416, "y": 96, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["416,96,16,16"]
+						}] },
+						{ "__identifier": "Heights", "__type": "Array<Float>", "__value": [10,8,0,-1], "__tile": null, "defUid": 111, "realEditorValues": [ { "id": "V_Float", "params": [10] }, { "id": "V_Float", "params": [8] }, { "id": "V_Float", "params": [0] }, { "id": "V_Float", "params": [-1] } ] },
+						{ "__identifier": "Texture", "__type": "Array<LocalEnum.TileTexture>", "__value": [ "Stone_jpg", null, null, "Stone_jpg" ], "__tile": null, "defUid": 121, "realEditorValues": [ {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						}, null, null, {
+							"id": "V_String",
+							"params": ["Stone_jpg"]
+						} ] }
+					],
+					"__worldX": 30,
+					"__worldY": 170
+				}
+			]
+		}
+	],
+	"__neighbours": []
+}
