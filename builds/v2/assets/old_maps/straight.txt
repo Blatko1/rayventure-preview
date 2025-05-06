@@ -1,0 +1,31 @@
+// Declare the blueprint dimensions
+3x7
+
+//Parameters: pillar1->bottom pillar, pillar2->top pillar, lvl1->bottom starting bound of bottom pillar,
+// lvl2->top ending bound of bottom pillar, lvl3->bottom starting bound of top pillar,
+// lvl4->top ending bound of top pillar, bottom->texture of bottom platform,
+// top->texture of top platform
+
+// Declare the presets used in modifying the tiles
+$ground = groundL:0, bottomL:-1, groundT:Carpet
+$ceiling = ceilingL:5, topL:20, ceilingT:DropCeiling, topT:DropCeiling
+$wall = groundL:7, ceilingL:8, bottomT:Wallpaper
+$windowWall = groundL:1.8, ceilingL:2.45, bottomT:Wallpaper
+$. = $ground, $ceiling
+$# = $., $wall
+$w = $., $windowWall
+
+$portalTile = ceilingL:3, topL:11
+$N = $., portalDir:N, $portalTile
+$S = $., portalDir:S, $portalTile
+
+// .  1 2 3
+//  ---------
+    | # # # | // 7
+    | # S # | // 6
+    | w . w | // 5
+    | w . w | // 4
+    | w . w | // 3
+    | # N # | // 2
+    | # # # | // 1
+//  ---------
