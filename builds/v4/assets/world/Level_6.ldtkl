@@ -1,0 +1,663 @@
+{
+	"__header__": {
+		"fileType": "LDtk Project JSON",
+		"app": "LDtk",
+		"doc": "https://ldtk.io/json",
+		"schema": "https://ldtk.io/files/JSON_SCHEMA.json",
+		"appAuthor": "Sebastien 'deepnight' Benard",
+		"appVersion": "1.5.3",
+		"url": "https://ldtk.io"
+	},
+	"identifier": "Level_6",
+	"iid": "14b32bc0-5e50-11f0-88d8-19e25604a110",
+	"uid": 172,
+	"worldX": 1020,
+	"worldY": -620,
+	"worldDepth": 0,
+	"pxWid": 100,
+	"pxHei": 140,
+	"__bgColor": "#696A79",
+	"bgColor": null,
+	"useAutoIdentifier": true,
+	"bgRelPath": null,
+	"bgPos": null,
+	"bgPivotX": 0.5,
+	"bgPivotY": 0.5,
+	"__smartColor": "#ADADB5",
+	"__bgPos": null,
+	"externalRelPath": null,
+	"fieldInstances": [
+		{ "__identifier": "Ambient", "__type": "Float", "__value": 1, "__tile": null, "defUid": 4, "realEditorValues": [] },
+		{ "__identifier": "SkyboxBottom", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyBottom_png", "__tile": null, "defUid": 125, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyBottom_png"]
+		}] },
+		{ "__identifier": "SkyboxTop", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyTop_png", "__tile": null, "defUid": 126, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyTop_png"]
+		}] },
+		{ "__identifier": "SkyboxNorth", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyNorth_png", "__tile": null, "defUid": 127, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyNorth_png"]
+		}] },
+		{ "__identifier": "SkyboxEast", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyEast_png", "__tile": null, "defUid": 128, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyEast_png"]
+		}] },
+		{ "__identifier": "SkyboxSouth", "__type": "LocalEnum.SkyboxTexture", "__value": "SkySouth_png", "__tile": null, "defUid": 129, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkySouth_png"]
+		}] },
+		{ "__identifier": "SkyboxWest", "__type": "LocalEnum.SkyboxTexture", "__value": "SkyWest_png", "__tile": null, "defUid": 130, "realEditorValues": [{
+			"id": "V_String",
+			"params": ["SkyWest_png"]
+		}] }
+	],
+	"layerInstances": [
+		{
+			"__identifier": "Lights",
+			"__type": "Entities",
+			"__cWid": 5,
+			"__cHei": 7,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "177e4d72-5e50-11f0-a93e-273d90ebd366",
+			"levelId": 172,
+			"layerDefUid": 174,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 2973246,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": []
+		},
+		{
+			"__identifier": "Portals",
+			"__type": "Entities",
+			"__cWid": 5,
+			"__cHei": 7,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "14b32bc1-5e50-11f0-88d8-bf97512e0a6e",
+			"levelId": 172,
+			"layerDefUid": 122,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 4166207,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": [
+				{
+					"__identifier": "WallPortal",
+					"__grid": [1,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["WallPortal"],
+					"__tile": { "tilesetUid": 27, "x": 384, "y": 64, "w": 16, "h": 16 },
+					"__smartColor": "#EFCDBB",
+					"iid": "6421cbd0-5e50-11f0-88d8-7760b4af85c0",
+					"width": 20,
+					"height": 60,
+					"defUid": 26,
+					"px": [30,90],
+					"fieldInstances": [
+						{ "__identifier": "Direction", "__type": "LocalEnum.Direction", "__value": "Left", "__tile": null, "defUid": 38, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["Left"]
+						}] },
+						{ "__identifier": "Destinations", "__type": "Array<EntityRef>", "__value": [], "__tile": null, "defUid": 107, "realEditorValues": [] },
+						{ "__identifier": "RoomInstances", "__type": "Array<EntityRef>", "__value": [], "__tile": null, "defUid": 146, "realEditorValues": [] },
+						{ "__identifier": "PosY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 165, "realEditorValues": [] },
+						{ "__identifier": "Height", "__type": "Float", "__value": 2.7, "__tile": null, "defUid": 166, "realEditorValues": [{ "id": "V_Float", "params": [2.7] }] }
+					],
+					"__worldX": 1050,
+					"__worldY": -530
+				},
+				{
+					"__identifier": "Instance",
+					"__grid": [0,0],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Instance"],
+					"__tile": { "tilesetUid": 27, "x": 96, "y": 384, "w": 16, "h": 16 },
+					"__smartColor": "#733E39",
+					"iid": "df66ff30-5e50-11f0-88d8-77c94e2d7a77",
+					"width": 20,
+					"height": 20,
+					"defUid": 145,
+					"px": [10,10],
+					"fieldInstances": [],
+					"__worldX": 1030,
+					"__worldY": -610
+				}
+			]
+		},
+		{
+			"__identifier": "FixedSprites",
+			"__type": "Entities",
+			"__cWid": 5,
+			"__cHei": 7,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "14b32bc2-5e50-11f0-88d8-d9ec2a62942c",
+			"levelId": 172,
+			"layerDefUid": 137,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 7078241,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": []
+		},
+		{
+			"__identifier": "BillboardSprites",
+			"__type": "Entities",
+			"__cWid": 5,
+			"__cHei": 7,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "14b32bc3-5e50-11f0-88d8-0b4e839e243c",
+			"levelId": 172,
+			"layerDefUid": 101,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 4059252,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": []
+		},
+		{
+			"__identifier": "Tilemap",
+			"__type": "Entities",
+			"__cWid": 5,
+			"__cHei": 7,
+			"__gridSize": 20,
+			"__opacity": 1,
+			"__pxTotalOffsetX": 0,
+			"__pxTotalOffsetY": 0,
+			"__tilesetDefUid": null,
+			"__tilesetRelPath": null,
+			"iid": "14b32bc4-5e50-11f0-88d8-559ab1328b18",
+			"levelId": 172,
+			"layerDefUid": 20,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"visible": true,
+			"optionalRules": [],
+			"intGridCsv": [],
+			"autoLayerTiles": [],
+			"seed": 4316,
+			"overrideTilesetUid": null,
+			"gridTiles": [],
+			"entityInstances": [
+				{
+					"__identifier": "Tile",
+					"__grid": [2,0],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "a1ec6e20-5e50-11f0-88d8-0719922ef134",
+					"width": 100,
+					"height": 20,
+					"defUid": 110,
+					"px": [50,10],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,32,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 193, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 185, "realEditorValues": [] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 186, "realEditorValues": [] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 188, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1070,
+					"__worldY": -610
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,1],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "41c943f0-5e50-11f0-88d8-a905635ba2d6",
+					"width": 40,
+					"height": 20,
+					"defUid": 110,
+					"px": [60,30],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,16,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 193, "realEditorValues": [] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 185, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 186, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 188, "realEditorValues": [] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1080,
+					"__worldY": -590
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,2],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "43b42400-5e50-11f0-88d8-df328b887c37",
+					"width": 20,
+					"height": 40,
+					"defUid": 110,
+					"px": [30,40],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,16,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 193, "realEditorValues": [] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 185, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 186, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 188, "realEditorValues": [] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1050,
+					"__worldY": -580
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,6],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "20e409e0-5e50-11f0-92df-c95a941d2dec",
+					"width": 80,
+					"height": 20,
+					"defUid": 110,
+					"px": [60,130],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,32,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 193, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 185, "realEditorValues": [] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 186, "realEditorValues": [] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 188, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1080,
+					"__worldY": -490
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [1,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "285f7970-5e50-11f0-92df-e54bae37ed6b",
+					"width": 20,
+					"height": 60,
+					"defUid": 110,
+					"px": [30,90],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,32,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 193, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 185, "realEditorValues": [] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 186, "realEditorValues": [] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 188, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1050,
+					"__worldY": -530
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [4,3],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "2fd061b0-5e50-11f0-92df-f3319c69b018",
+					"width": 20,
+					"height": 100,
+					"defUid": 110,
+					"px": [90,70],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,32,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 193, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 185, "realEditorValues": [] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 186, "realEditorValues": [] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 188, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1110,
+					"__worldY": -550
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [0,2],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "328dfb10-5e50-11f0-92df-dbec5645208f",
+					"width": 20,
+					"height": 40,
+					"defUid": 110,
+					"px": [10,40],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 32, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,32,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 193, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 185, "realEditorValues": [] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 186, "realEditorValues": [] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 188, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1030,
+					"__worldY": -580
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,2],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "4f708ae0-5e50-11f0-92df-afb7ce63f2e1",
+					"width": 40,
+					"height": 20,
+					"defUid": 110,
+					"px": [60,50],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,16,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 4.5, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [4.5] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 193, "realEditorValues": [] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 185, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 186, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 188, "realEditorValues": [] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1080,
+					"__worldY": -570
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,3],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "52d97f70-5e50-11f0-92df-dd07198fcd79",
+					"width": 40,
+					"height": 20,
+					"defUid": 110,
+					"px": [60,70],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,16,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 3.2, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [3.2] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 193, "realEditorValues": [] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 185, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 186, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 188, "realEditorValues": [] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1080,
+					"__worldY": -550
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,4],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "5a241b00-5e50-11f0-92df-5b549906ecfd",
+					"width": 40,
+					"height": 20,
+					"defUid": 110,
+					"px": [60,90],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,16,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 2.7, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [2.7] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 193, "realEditorValues": [] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 185, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 186, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 188, "realEditorValues": [] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1080,
+					"__worldY": -530
+				},
+				{
+					"__identifier": "Tile",
+					"__grid": [3,5],
+					"__pivot": [0.5,0.5],
+					"__tags": ["Tile"],
+					"__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 },
+					"__smartColor": "#EDC26E",
+					"iid": "5dadb6f0-5e50-11f0-92df-4750366bd1b5",
+					"width": 40,
+					"height": 20,
+					"defUid": 110,
+					"px": [60,110],
+					"fieldInstances": [
+						{ "__identifier": "Tile", "__type": "Tile", "__value": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 27, "x": 368, "y": 16, "w": 16, "h": 16 }, "defUid": 113, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["368,16,16,16"]
+						}] },
+						{ "__identifier": "TopY", "__type": "Float", "__value": 5, "__tile": null, "defUid": 191, "realEditorValues": [{ "id": "V_Float", "params": [5] }] },
+						{ "__identifier": "CeilingY", "__type": "Float", "__value": 2.2, "__tile": null, "defUid": 192, "realEditorValues": [{ "id": "V_Float", "params": [2.2] }] },
+						{ "__identifier": "FloorY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 193, "realEditorValues": [] },
+						{ "__identifier": "BottomY", "__type": "Float", "__value": 0, "__tile": null, "defUid": 194, "realEditorValues": [] },
+						{ "__identifier": "TopWallTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 185, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "CeilingTex", "__type": "LocalEnum.TileTexture", "__value": "StoneBrickWall_png", "__tile": null, "defUid": 186, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneBrickWall_png"]
+						}] },
+						{ "__identifier": "FloorTex", "__type": "LocalEnum.TileTexture", "__value": "StoneFloor_png", "__tile": null, "defUid": 187, "realEditorValues": [{
+							"id": "V_String",
+							"params": ["StoneFloor_png"]
+						}] },
+						{ "__identifier": "BottomWallTex", "__type": "LocalEnum.TileTexture", "__value": null, "__tile": null, "defUid": 188, "realEditorValues": [] },
+						{ "__identifier": "TopWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 190, "realEditorValues": [] },
+						{ "__identifier": "BottomWallTexOverride", "__type": "Array<LocalEnum.TileTexture>", "__value": [], "__tile": null, "defUid": 189, "realEditorValues": [] },
+						{ "__identifier": "Collidable", "__type": "Bool", "__value": true, "__tile": null, "defUid": 162, "realEditorValues": [] }
+					],
+					"__worldX": 1080,
+					"__worldY": -510
+				}
+			]
+		}
+	],
+	"__neighbours": []
+}
