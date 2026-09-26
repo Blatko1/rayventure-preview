@@ -1,0 +1,40 @@
+// Game: Generic
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures"
+"skybox_west" "SkyWest"
+"skybox_top" "SkyTop"
+"skybox_bottom" "SkyBottom"
+"skybox_north" "SkyNorth"
+"skybox_east" "SkyEast"
+"skybox_south" "SkySouth"
+"_tb_def" "external:H:/programming/rust/code/rayventure2/assets/test.fgd"
+// brush 0
+{
+( -512 224 512 ) ( -512 225 512 ) ( -512 224 513 ) __TB_empty 0 0 0 1 1
+( -96 -192 512 ) ( -96 -192 513 ) ( -95 -192 512 ) __TB_empty 0 0 0 1 1
+( -96 224 512 ) ( -95 224 512 ) ( -96 225 512 ) __TB_empty 0 0 0 1 1
+( 384 640 544 ) ( 384 641 544 ) ( 385 640 544 ) __TB_empty 0 0 0 1 1
+( 384 640 544 ) ( 385 640 544 ) ( 384 640 545 ) __TB_empty 0 0 0 1 1
+( 352 640 544 ) ( 352 640 545 ) ( 352 641 544 ) __TB_empty 0 0 0 1 1
+}
+// brush 1
+{
+( 352 -192 800 ) ( 352 640 544 ) ( 352 640 800 ) __TB_empty 0 0 0 1 1
+( 384 -192 800 ) ( 352 -192 544 ) ( 352 -192 800 ) __TB_empty 0 0 0 1 1
+( 384 640 544 ) ( 352 -192 544 ) ( 384 -192 544 ) __TB_empty 0 0 0 1 1
+( 384 640 992 ) ( 352 -192 992 ) ( 352 640 992 ) __TB_empty 0 0 0 1 1
+( 384 640 800 ) ( 352 640 544 ) ( 384 640 544 ) __TB_empty 0 0 0 1 1
+( 384 640 800 ) ( 384 -192 544 ) ( 384 -192 800 ) __TB_empty 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Lights"
+"_tb_id" "1"
+"_tb_layer_sort_index" "0"
+}

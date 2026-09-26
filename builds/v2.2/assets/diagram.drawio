@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="52INFrmetr87O5A2UmlE">
+    <mxGraphModel dx="1501" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L-c8n3em2QP8tbZnDiub-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="360" x="220" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=none;rounded=0;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Room data&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;files&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="110" x="185" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;" value="start.map" vertex="1">
+          <mxGeometry height="80" width="70" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;" value="room1.map" vertex="1">
+          <mxGeometry height="80" width="70" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;" value="roomN.map" vertex="1">
+          <mxGeometry height="80" width="70" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;" value="..." vertex="1">
+          <mxGeometry height="80" width="70" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-7" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-3" style="endArrow=classic;html=1;rounded=0;" target="L-c8n3em2QP8tbZnDiub-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="330" as="sourcePoint" />
+            <mxPoint x="170" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-8" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-4" style="endArrow=classic;html=1;rounded=0;" target="L-c8n3em2QP8tbZnDiub-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="270" as="sourcePoint" />
+            <mxPoint x="262" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-9" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-6" style="endArrow=classic;html=1;rounded=0;" target="L-c8n3em2QP8tbZnDiub-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="280" as="sourcePoint" />
+            <mxPoint x="302" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-10" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-5" style="endArrow=classic;html=1;rounded=0;" target="L-c8n3em2QP8tbZnDiub-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="342" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-11" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#60A917,#99FF99);fontColor=#ffffff;strokeColor=#2D7600;gradientColor=none;rounded=0;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Textures&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="110" x="510" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-12" parent="1" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=light-dark(#000000,#99FF99);rounded=0;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;AssetLoader&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="345" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-13" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-2" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" target="L-c8n3em2QP8tbZnDiub-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="460" as="sourcePoint" />
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-14" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-11" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" target="L-c8n3em2QP8tbZnDiub-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="420" as="sourcePoint" />
+            <mxPoint x="570" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-15" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;arcSize=12;size=0.23;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;align=right;" value="&lt;h3 style=&quot;line-height: 190%;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Vec&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/h3&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="290" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-16" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;arcSize=12;size=0.23;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Room&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="305" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-17" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;arcSize=12;size=0.23;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;align=right;" value="&lt;h3 style=&quot;line-height: 190%;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Vec&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/h3&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="430" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-18" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;arcSize=12;size=0.23;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Texture&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="445" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;AssetLoader&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;output&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="217" y="559.9999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.92" y="510" as="sourcePoint" />
+            <mxPoint x="399.92" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-21" connectable="0" parent="L-c8n3em2QP8tbZnDiub-20" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;rounded=0;" value="outputs" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-22" connectable="0" parent="1" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;rounded=0;" value="inputs" vertex="1">
+          <mxGeometry x="400" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-23" parent="1" style="html=1;whiteSpace=wrap;rounded=0;" value="&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;World&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="345" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-24" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-1" style="endArrow=classic;html=1;" target="L-c8n3em2QP8tbZnDiub-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="800" as="sourcePoint" />
+            <mxPoint x="430" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-25" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-26" style="edgeStyle=entityRelationEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" target="L-c8n3em2QP8tbZnDiub-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4JDAOPvaXr8uqOenEc4N-4" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-26" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4JDAOPvaXr8uqOenEc4N-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-26" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;Room&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;RCWalls: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Vec&amp;lt;RCwall&amp;gt;,&lt;br&gt;RCPlatforms: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Vec&amp;lt;RCplatform&amp;gt;,&lt;br&gt;RCSlope: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Vec&amp;lt;RCSlope&amp;gt;,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;vert_portals: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Vec&amp;lt;VerticalPortal&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;...gpu data...&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="880" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-27" edge="1" parent="1" source="L-c8n3em2QP8tbZnDiub-16" style="endArrow=none;dashed=1;html=1;opacity=50;" target="L-c8n3em2QP8tbZnDiub-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="610" as="sourcePoint" />
+            <mxPoint x="670" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-c8n3em2QP8tbZnDiub-28" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;VerticalPortal&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;destination:&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Option&amp;lt;(RoomID, PortalID)&amp;gt;,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;possible_destinations: Vec&amp;lt;(RoomKey, InstanceKey, PortalKey)&amp;gt;,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="450" x="1320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4JDAOPvaXr8uqOenEc4N-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Cascadia Code&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Cascadia+Code&quot;&gt;HorizontalPortal&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;destination:&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Option&amp;lt;(RoomID, PortalID)&amp;gt;,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;possible_destinations: Vec&amp;lt;(RoomKey, InstanceKey, PortalKey)&amp;gt;,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font face=&quot;Cascadia Code&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="450" x="1320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4JDAOPvaXr8uqOenEc4N-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;RCWall&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;start: Point2,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;dir: Point2,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;start_top_y: f32,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;start_bot_y: f32,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;end_top_y: f32,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;end_bot_y: f32,&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="1890" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
