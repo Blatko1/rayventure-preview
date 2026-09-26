@@ -1,0 +1,41 @@
+@SolidClass
+color(0 200 200)
+= cylinder :
+"A cylinder entity"
+[
+    textureRotation(float) : "Texture rotation in rad" : "0.0"
+]
+
+@SolidClass = portal : "Portal"
+[
+	key(String) : "Portal key"
+    destinations(String) : "Destination portals to which this source portal leads to"
+]
+
+@SolidClass
+= sprite_fixed : "A fixed sprite"
+[
+	flipVertically(choices) : "Is flipped vertically?" : 0 =
+	[	
+		0 : "No"
+		1 : "Yes"
+	]
+]
+
+@PointClass
+color(255 255 200)
+= lightSource : "A light source"
+[
+    color(color255) : "Light color" 		  : "255 255 0"
+	radius(float)   : "Light radius distance" : "1.0"
+	intensity(float): "Light intensity" 	  : "1.0"
+	strength(float) : "Light strength (falloff)" : "2.0"
+]
+
+@PointClass
+color(0 255 200)
+= billboardSprite : "A billboard sprite"
+[
+	scale(float) : "Sprite texture scale" : "1.0"
+	spr(sprite) : "Sprite"
+]
